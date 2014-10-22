@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 puppet-postfix
 ==============
 
@@ -93,5 +92,3 @@ class { '::postfix::server':
 * The service will only be reloaded on configuration change, meaning that
   changes requiring a full restart won't be applied, such as changes to
   listening interfaces.
-
->>>>>>> upstream/master

@@ -1,0 +1,14 @@
+{
+  "author": "Matthias Saou",
+  "dependencies": [],
+  "description": "Install, enable and configure a complete Postfix Mail Transport\n    Agent instance.",
+  "license": "Apache 2.0",
+  "name": "thias-postfix",
+  "operatingsystem_support": [],
+  "project_page": "https://github.com/thias/puppet-postfix",
+  "requirements": [],
+  "source": "git://github.com/thias/puppet-postfix",
+  "summary": "Postfix Mail Transport Agent module",
+  "tags": [],
+  "version": "0.3.3"
+}
