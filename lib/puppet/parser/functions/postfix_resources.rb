@@ -43,11 +43,14 @@ module Puppet::Parser::Functions
      if args.length < 1
        raise Puppet::ParseError,("postfix_resources: Expects an argument")
      end
+
+     
       many_options = args[0]
       unless many_options.is_a?(Hash)
        raise Puppet::ParseError,("postfix_resources: The argument must be a hash provided")
      end
      
+
     def postfix_hash (options)
       options.each {|key, value|
         if (value.is_a?(String))
